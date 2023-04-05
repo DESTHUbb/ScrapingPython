@@ -158,6 +158,19 @@ const c = new Crawler({
 
 c.queue(tasks);//between two tasks, minimum time gap is 1000 (ms)
 ```
+### Custom parameters:
+#### Sometimes you have to access variables from previous request/response session, what should you do is passing parameters as same as options:
+``` js
+c.queue({
+    uri: 'http://www.google.com',
+    parameter1: 'value1',
+    parameter2: 'value2',
+    parameter3: 'value3'
+})
+```
+
+
+
 ## 9. PySpider
 
 ## 10. StormCrawler
