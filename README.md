@@ -79,7 +79,7 @@ const input = {
 ## 6. Apache Nutch
 [![Apache Nutch](https://user-images.githubusercontent.com/90658763/230076004-1f3eda9d-7710-4673-890c-ed2b9bc0c683.png)](https://nutch.apache.org/)
 ## 7. Jaunt
-
+[![Jaunt](https://user-images.githubusercontent.com/90658763/230076562-58a5be8b-9c99-4150-abd2-4ca719dcae44.png)](https://jaunt-api.com/)
 ## 8. Node-crawler
 
 ## 9. PySpider
