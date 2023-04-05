@@ -143,36 +143,8 @@ c.queue([{
     html: '<p>This is a <strong>test</strong></p>'
 }]);
 ```
-### Slow down:
-#### Use rateLimit to slow down when you are visiting web sites.
-``` js
-const Crawler = require('crawler');
-
-const c = new Crawler({
-    rateLimit: 1000, // `maxConnections` will be forced to 1
-    callback: (err, res, done) => {
-        console.log(res.$('title').text());
-        done();
-    }
-});
-
-c.queue(tasks);//between two tasks, minimum time gap is 1000 (ms)
-```
-### Custom parameters:
-#### Sometimes you have to access variables from previous request/response session, what should you do is passing parameters as same as options:
-``` js
-c.queue({
-    uri: 'http://www.google.com',
-    parameter1: 'value1',
-    parameter2: 'value2',
-    parameter3: 'value3'
-})
-```
-#### then access them in callback via res.options
-``` js
-console.log(res.options.parameter1);
-```
-
+``` .... 
+````
 ## 9. PySpider
 
 ## 10. StormCrawler
