@@ -39,7 +39,7 @@ For Installation see [Installation website](https://code.tutsplus.com/es/tutoria
 ## 3. Web-Harvest
 [![Web-Harvest](https://user-images.githubusercontent.com/90658763/230073486-faf635ff-d282-4934-b0d5-0dd3ad85e4ba.png)](https://web-harvest.sourceforge.net/)
 ## 4. MechanicalSoup
-
+[![Scrapy](https://user-images.githubusercontent.com/90658763/230073718-40dafde4-3a32-483f-a54c-41bf46e509e7.png)](https://mechanicalsoup.readthedocs.io/en/stable/)
 ## 5. Apify SDK
 
 ## 6. Apache Nutch
