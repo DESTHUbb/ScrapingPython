@@ -30,23 +30,25 @@ python setup.py install
 
 For Installation see [Installation website](https://code.tutsplus.com/es/tutorials/scraping-webpages-in-python-with-beautiful-soup-the-basics--cms-28211).
 
-#Scrapingwebs:
-1. Scrapy
+# Scrapingwebs:
+[![YFINANCE](https://user-images.githubusercontent.com/90658763/229842951-932eb469-141b-4820-8413-f86af6977973.png)](https://pypi.org/project/yfinance/)
 
-2. Heritrix
+## 1. Scrapy
 
-3. Web-Harvest
+## 2. Heritrix
 
-4. MechanicalSoup
+## 3. Web-Harvest
 
-5. Apify SDK
+## 4. MechanicalSoup
 
-6. Apache Nutch
+## 5. Apify SDK
 
-7. Jaunt
+## 6. Apache Nutch
 
-8. Node-crawler
+## 7. Jaunt
 
-9. PySpider
+## 8. Node-crawler
 
-10. StormCrawler
+## 9. PySpider
+
+## 10. StormCrawler
