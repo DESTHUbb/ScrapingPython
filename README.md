@@ -35,7 +35,7 @@ For Installation see [Installation website](https://code.tutsplus.com/es/tutoria
 ## 1. Scrapy
 [![Scrapy](https://user-images.githubusercontent.com/90658763/230072341-0383a9a3-6e43-488d-a285-cdbde55ea587.png)](https://scrapy.org/)
 ## 2. Heritrix
-
+[![Heritrix](https://user-images.githubusercontent.com/90658763/230072897-85d73ba5-228c-46d1-b93d-589a9907efb6.png)](https://github.com/internetarchive/heritrix3/wiki)
 ## 3. Web-Harvest
 
 ## 4. MechanicalSoup
