@@ -41,7 +41,7 @@ For Installation see [Installation website](https://code.tutsplus.com/es/tutoria
 ## 4. MechanicalSoup
 [![Scrapy](https://user-images.githubusercontent.com/90658763/230073718-40dafde4-3a32-483f-a54c-41bf46e509e7.png)](https://mechanicalsoup.readthedocs.io/en/stable/)
 ## 5. Apify SDK
-
+[![Apify SDK](https://user-images.githubusercontent.com/90658763/230074693-c29476c3-5568-40e1-8886-e630939850ad.gif)](https://apify.com/glenn/gif-scroll-animation/api)
 ## 6. Apache Nutch
 
 ## 7. Jaunt
