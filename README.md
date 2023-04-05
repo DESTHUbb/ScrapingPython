@@ -144,7 +144,8 @@ c.queue([{
 }]);
 ```
 ``` 
-More code on the website: https://www.npmjs.com/package/crawler
+More code on the website: 
+https://www.npmjs.com/package/crawler
 ```
 ## 9. PySpider
 
