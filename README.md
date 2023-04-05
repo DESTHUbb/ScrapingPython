@@ -143,7 +143,8 @@ c.queue([{
     html: '<p>This is a <strong>test</strong></p>'
 }]);
 ```
-``` .... 
+``` 
+More code on the website: https://www.npmjs.com/package/crawler
 ```
 ## 9. PySpider
 
