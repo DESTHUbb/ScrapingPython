@@ -80,7 +80,8 @@ const input = {
 [![Apache Nutch](https://user-images.githubusercontent.com/90658763/230076004-1f3eda9d-7710-4673-890c-ed2b9bc0c683.png)](https://nutch.apache.org/)
 ## 7. Jaunt
 [![Jaunt](https://user-images.githubusercontent.com/90658763/230076562-58a5be8b-9c99-4150-abd2-4ca719dcae44.png)](https://jaunt-api.com/)
-``` GoogleScraperDemo.java:
+``` js
+GoogleScraperDemo.java:
 1 UserAgent userAgent = new UserAgent();         //create new userAgent (headless browser)
 2 userAgent.visit("http://google.com");          //visit google
 3 userAgent.doc.apply("butterflies").submit();   //apply form input and submit
@@ -90,6 +91,7 @@ const input = {
  ```
  
 ## 8. Node-crawler
+[![Node-crawler](https://user-images.githubusercontent.com/90658763/230076562-58a5be8b-9c99-4150-abd2-4ca719dcae44.png)](https://jaunt-api.com/)
 
 ## 9. PySpider
 
