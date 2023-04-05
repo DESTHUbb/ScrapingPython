@@ -91,7 +91,7 @@ GoogleScraperDemo.java:
  ```
  
 ## 8. Node-crawler
-[![Node-crawler](https://user-images.githubusercontent.com/90658763/230076562-58a5be8b-9c99-4150-abd2-4ca719dcae44.png)](https://jaunt-api.com/)
+[![Node-crawler](https://user-images.githubusercontent.com/90658763/230077814-457f02ae-f7d6-4fa9-a477-7e80ac01500e.png)](https://www.npmjs.com/package/crawler)
 
 ## 9. PySpider
 
