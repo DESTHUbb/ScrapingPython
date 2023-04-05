@@ -43,7 +43,7 @@ For Installation see [Installation website](https://code.tutsplus.com/es/tutoria
 ## 5. Apify SDK
 [![Apify SDK](https://user-images.githubusercontent.com/90658763/230074693-c29476c3-5568-40e1-8886-e630939850ad.gif)](https://apify.com/glenn/gif-scroll-animation/api)
 
- ```console
+ ```js
 $ Node.js
 >>> import { ApifyClient } from 'apify-client';
 
