@@ -168,8 +168,10 @@ c.queue({
     parameter3: 'value3'
 })
 ```
-
-
+#### then access them in callback via res.options
+``` js
+console.log(res.options.parameter1);
+```
 
 ## 9. PySpider
 
