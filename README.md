@@ -42,6 +42,40 @@ For Installation see [Installation website](https://code.tutsplus.com/es/tutoria
 [![Scrapy](https://user-images.githubusercontent.com/90658763/230073718-40dafde4-3a32-483f-a54c-41bf46e509e7.png)](https://mechanicalsoup.readthedocs.io/en/stable/)
 ## 5. Apify SDK
 [![Apify SDK](https://user-images.githubusercontent.com/90658763/230074693-c29476c3-5568-40e1-8886-e630939850ad.gif)](https://apify.com/glenn/gif-scroll-animation/api)
+
+ ```console
+$ Node.js
+>>> import { ApifyClient } from 'apify-client';
+
+// Initialize the ApifyClient with API token
+const client = new ApifyClient({
+    token: '<YOUR_API_TOKEN>',
+});
+
+// Prepare actor input
+const input = {
+    "url": "https://crawlee.dev/",
+    "proxyOptions": {
+        "useApifyProxy": true
+    },
+    "frameRate": 7,
+    "scrollPercentage": 10,
+    "recordingTimeBeforeAction": 1000
+};
+
+(async () => {
+    // Run the actor and wait for it to finish
+    const run = await client.actor("glenn/gif-scroll-animation").call(input);
+
+    // Fetch and print actor results from the run's dataset (if any)
+    console.log('Results from dataset');
+    const { items } = await client.dataset(run.defaultDatasetId).listItems();
+    items.forEach((item) => {
+        console.dir(item);
+    });
+})();
+```
+
 ## 6. Apache Nutch
 
 ## 7. Jaunt
