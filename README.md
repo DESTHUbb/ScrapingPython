@@ -77,7 +77,7 @@ const input = {
 ```
 
 ## 6. Apache Nutch
-
+[![Apache Nutch](https://user-images.githubusercontent.com/90658763/230076004-1f3eda9d-7710-4673-890c-ed2b9bc0c683.png)](https://nutch.apache.org/)
 ## 7. Jaunt
 
 ## 8. Node-crawler
