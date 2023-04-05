@@ -31,10 +31,9 @@ python setup.py install
 For Installation see [Installation website](https://code.tutsplus.com/es/tutorials/scraping-webpages-in-python-with-beautiful-soup-the-basics--cms-28211).
 
 # Scrapingwebs:
-[![Scrapy](![image](https://user-images.githubusercontent.com/90658763/230072341-0383a9a3-6e43-488d-a285-cdbde55ea587.png)](https://scrapy.org/)
 
 ## 1. Scrapy
-
+[![Scrapy](https://user-images.githubusercontent.com/90658763/230072341-0383a9a3-6e43-488d-a285-cdbde55ea587.png)](https://scrapy.org/)
 ## 2. Heritrix
 
 ## 3. Web-Harvest
