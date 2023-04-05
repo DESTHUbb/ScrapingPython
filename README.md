@@ -143,7 +143,21 @@ c.queue([{
     html: '<p>This is a <strong>test</strong></p>'
 }]);
 ```
+### Slow down:
+#### Use rateLimit to slow down when you are visiting web sites.
+``` js
+const Crawler = require('crawler');
 
+const c = new Crawler({
+    rateLimit: 1000, // `maxConnections` will be forced to 1
+    callback: (err, res, done) => {
+        console.log(res.$('title').text());
+        done();
+    }
+});
+
+c.queue(tasks);//between two tasks, minimum time gap is 1000 (ms)
+```
 ## 9. PySpider
 
 ## 10. StormCrawler
