@@ -31,7 +31,7 @@ python setup.py install
 For Installation see [Installation website](https://code.tutsplus.com/es/tutorials/scraping-webpages-in-python-with-beautiful-soup-the-basics--cms-28211).
 
 # Scrapingwebs:
-[![YFINANCE](https://user-images.githubusercontent.com/90658763/229842951-932eb469-141b-4820-8413-f86af6977973.png)](https://pypi.org/project/yfinance/)
+[![Scrapy](![image](https://user-images.githubusercontent.com/90658763/230072341-0383a9a3-6e43-488d-a285-cdbde55ea587.png)](https://scrapy.org/)
 
 ## 1. Scrapy
 
