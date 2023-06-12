@@ -34,5 +34,9 @@ def get_html_from_url(url):
 	result = requests.get(url)
     return result.text
 
+def extract_bold_tags(html_content):
+    doc = BeautifulSoup(html_content, "html.parser")
+
+
 
 
