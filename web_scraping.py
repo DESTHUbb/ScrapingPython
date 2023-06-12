@@ -24,3 +24,6 @@ print(strong.string)
 
 from bs4 import BeautifulSoup
 import requests
+
+def read_local_html(file_path):
+    with open(file_path, "r") as f:
