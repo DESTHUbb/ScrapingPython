@@ -47,3 +47,5 @@ prices = doc.find_all(text="$")
     parent = prices[0].parent
  strong = parent.find("strong")
     return strong.string
+
+local_html_content = read_local_html("index.html")
