@@ -49,3 +49,6 @@ prices = doc.find_all(text="$")
     return strong.string
 
 local_html_content = read_local_html("index.html")
+bold_tags = extract_bold_tags(local_html_content)
+print(bold_tags)
+
