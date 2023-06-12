@@ -45,4 +45,5 @@ def extract_newegg_product_price(html_content):
     doc = BeautifulSoup(html_content, "html.parser")
 prices = doc.find_all(text="$")
     parent = prices[0].parent
-
+ strong = parent.find("strong")
+    return strong.string
