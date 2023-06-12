@@ -30,4 +30,6 @@ def read_local_html(file_path):
 	 content = f.read()
     return content
 
+def get_html_from_url(url):
+
 	
