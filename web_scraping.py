@@ -27,3 +27,7 @@ import requests
 
 def read_local_html(file_path):
     with open(file_path, "r") as f:
+	 content = f.read()
+    return content
+
+	
