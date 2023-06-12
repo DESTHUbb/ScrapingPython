@@ -39,5 +39,7 @@ def extract_bold_tags(html_content):
  tags = doc.find_all("p")[0]
     return tags.find_all("b")
 
+def extract_newegg_product_price(html_content):
+    doc = BeautifulSoup(html_content, "html.parser")
 
 
