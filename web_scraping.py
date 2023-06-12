@@ -56,4 +56,5 @@ url = "https://www.newegg.ca/gigabyte-geforce-rtx-3080-ti-gv-n308tgaming-oc-12gd
 
 web_html_content = get_html_from_url(url)
 product_price = extract_newegg_product_price(web_html_content)
+print(product_price)
 
