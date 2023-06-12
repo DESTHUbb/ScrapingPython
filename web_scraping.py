@@ -36,7 +36,8 @@ def get_html_from_url(url):
 
 def extract_bold_tags(html_content):
     doc = BeautifulSoup(html_content, "html.parser")
-
+ tags = doc.find_all("p")[0]
+    return tags.find_all("b")
 
 
 
