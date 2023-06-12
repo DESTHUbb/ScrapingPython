@@ -33,4 +33,6 @@ def read_local_html(file_path):
 def get_html_from_url(url):
 	result = requests.get(url)
     return result.text
-	
+
+
+
