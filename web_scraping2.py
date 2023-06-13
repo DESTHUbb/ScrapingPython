@@ -37,6 +37,10 @@ with open("changed.html", "w") as file:
 2: # BeautifulSoup object variable: In the original version, the doc variable was used to store the BeautifulSoup object. 
    # In the improved version, the variable soup is used, which is a more commonly used and easily recognizable name for a BeautifulSoup object.
 
+3: # Modifying attributes: In the original version, the dictionary access syntax was used to modify the placeholder attribute. 
+   # In the improved version, the attribute access syntax was used which is clearer and easier to read.
+
+
 
 
 
