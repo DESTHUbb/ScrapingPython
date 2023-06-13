@@ -17,4 +17,4 @@ with open("changed.html", "w") as file:
 # Improvement:
 
 from bs4 import BeautifulSoup
-	
+	with open("index.html", "r") as f:
