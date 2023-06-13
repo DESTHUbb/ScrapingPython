@@ -30,8 +30,13 @@ with open("changed.html", "w") as file:
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 # Improvements and updates made:
+
 1: # Reading the HTML file: In the original version, the open method was used to read the HTML file and then passed to the BeautifulSoup constructor. 
    # In the improved version, open is used to read the entire contents of the file in a single text string, and this string is passed to the BeautifulSoup constructor.
+
+2: # BeautifulSoup object variable: In the original version, the doc variable was used to store the BeautifulSoup object. 
+   # In the improved version, the variable soup is used, which is a more commonly used and easily recognizable name for a BeautifulSoup object.
+
 
 
 
