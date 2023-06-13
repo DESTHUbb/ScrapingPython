@@ -43,6 +43,7 @@ with open("changed.html", "w") as file:
 4: # Search for elements: In the original version, a tags variable was used to store the elements found by the find_all() function. 
    # In the improved version, the find_all() function was used directly in a for loop.
 
+5: # Writing HTML file: Both versions use the open function to create a new HTML file and write the modified content of the BeautifulSoup object to it.
 
 
 
