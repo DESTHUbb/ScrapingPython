@@ -22,4 +22,5 @@ from bs4 import BeautifulSoup
 
 soup = BeautifulSoup(html, "html.parser")
 for tag in soup.find_all("input", type="text"):
+    tag["placeholder"] = "I changed you!"
 
