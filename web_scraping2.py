@@ -18,3 +18,4 @@ with open("changed.html", "w") as file:
 
 from bs4 import BeautifulSoup
 	with open("index.html", "r") as f:
+		    html = f.read()
