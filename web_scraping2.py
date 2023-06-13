@@ -40,6 +40,8 @@ with open("changed.html", "w") as file:
 3: # Modifying attributes: In the original version, the dictionary access syntax was used to modify the placeholder attribute. 
    # In the improved version, the attribute access syntax was used which is clearer and easier to read.
 
+4: # Search for elements: In the original version, a tags variable was used to store the elements found by the find_all() function. 
+   # In the improved version, the find_all() function was used directly in a for loop.
 
 
 
