@@ -21,4 +21,5 @@ from bs4 import BeautifulSoup
 		    html = f.read()
 
 soup = BeautifulSoup(html, "html.parser")
+for tag in soup.find_all("input", type="text"):
 
