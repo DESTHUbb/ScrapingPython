@@ -24,3 +24,5 @@ soup = BeautifulSoup(html, "html.parser")
 for tag in soup.find_all("input", type="text"):
     tag["placeholder"] = "I changed you!"
 
+with open("changed.html", "w") as file:
+
