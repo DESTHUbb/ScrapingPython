@@ -27,5 +27,5 @@ from bs4 import BeautifulSoup
 import requests
 
 def get_crypto_prices(url: str):
-	    result = requests.get(url).text
-    doc = BeautifulSoup(result, "html.parser")
+	result = requests.get(url).text
+        doc = BeautifulSoup(result, "html.parser")
