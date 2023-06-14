@@ -33,3 +33,7 @@ def get_crypto_prices(url: str):
 	    tbody = doc.tbody
    	    trs = tbody.contents
 
+    prices = {}
+
+    for tr in trs[:10]:
+
