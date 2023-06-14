@@ -46,4 +46,5 @@ def print_prices(prices: dict):
     for name, price in prices.items():
 	        print(f'{name}: {price}')
 
+if __name__ == "__main__":
 
