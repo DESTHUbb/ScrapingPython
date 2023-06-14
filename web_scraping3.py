@@ -44,4 +44,6 @@ def get_crypto_prices(url: str):
     return prices
 def print_prices(prices: dict):
     for name, price in prices.items():
+	        print(f'{name}: {price}')
+
 
