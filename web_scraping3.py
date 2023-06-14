@@ -26,3 +26,4 @@ print(prices)
 from bs4 import BeautifulSoup
 import requests
 
+def get_crypto_prices(url: str):
