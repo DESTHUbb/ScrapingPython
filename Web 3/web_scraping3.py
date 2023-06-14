@@ -35,6 +35,7 @@ if __name__ == "__main__":
     
 2: # Removed unnecessary variables and simplified the code to get the data table and rows.
     
+3: # The list cut [:10] has been removed since the data for the first 10 rows of the table can be obtained using a for loop with an upper bound of 11 (rows[1:11]).
     
     
     
