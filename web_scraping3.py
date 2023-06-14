@@ -40,4 +40,7 @@ def get_crypto_prices(url: str):
         fixed_name = name.p.string
         fixed_price = price.a.string
         prices[fixed_name] = fixed_price
+	
+    return prices
+def print_prices(prices: dict):
 
