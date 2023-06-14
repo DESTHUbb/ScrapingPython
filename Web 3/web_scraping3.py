@@ -32,3 +32,9 @@ if __name__ == "__main__":
 # Improvements and updates made:
 
 1: # The response response.content was used instead of response.text to get the HTML content directly as bytes.
+    
+2: # Removed unnecessary variables and simplified the code to get the data table and rows.
+    
+    
+    
+    
