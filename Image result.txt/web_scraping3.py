@@ -51,3 +51,8 @@ if __name__ == "__main__":
     crypto_prices = get_crypto_prices(url)
     print_prices(crypto_prices)
 
+
+
+
+
+
