@@ -49,4 +49,5 @@ def print_prices(prices: dict):
 if __name__ == "__main__":
     url = "https://coinmarketcap.com/"
     crypto_prices = get_crypto_prices(url)
+    print_prices(crypto_prices)
 
