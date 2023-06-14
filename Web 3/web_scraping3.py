@@ -37,5 +37,6 @@ if __name__ == "__main__":
     
 3: # The list cut [:10] has been removed since the data for the first 10 rows of the table can be obtained using a for loop with an upper bound of 11 (rows[1:11]).
     
+4: # Added a return type annotation type for the get_crypto_prices() function to make it more clear what it returns.
     
     
