@@ -31,4 +31,5 @@ def get_crypto_prices(url: str):
         doc = BeautifulSoup(result, "html.parser")
 	
 	    tbody = doc.tbody
+   	    trs = tbody.contents
 
