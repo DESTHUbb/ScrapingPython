@@ -39,4 +39,5 @@ if __name__ == "__main__":
     
 4: # Added a return type annotation type for the get_crypto_prices() function to make it more clear what it returns.
     
+5: # Added a None annotation type for the print_prices() function to indicate that it returns nothing.
     
