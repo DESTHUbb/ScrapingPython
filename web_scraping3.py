@@ -37,4 +37,5 @@ def get_crypto_prices(url: str):
 
     for tr in trs[:10]:
         name, price = tr.contents[2:4]
+        fixed_name = name.p.string
 
