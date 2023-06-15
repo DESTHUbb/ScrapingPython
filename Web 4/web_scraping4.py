@@ -67,6 +67,8 @@ def get_items(url, search_term):
     items = div.find_all(text=re.compile(search_term))
     items_found = {}
     for item in items:
+	    parent = item.parent
+        if parent.name != "a":
 
 
 
