@@ -85,6 +85,8 @@ def search_items(search_term):
     params = {"d": search_term, "N": 4131}
 url = f"{base_url}?{'&'.join([f'{k}={v}' for k,v in params.items()])}"
     pages = get_num_pages(url)
+    items_found = {}
+
 
 
 
