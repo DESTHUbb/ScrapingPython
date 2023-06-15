@@ -106,6 +106,7 @@ if __name__ == '__main__':
 
 1:# Modularization of the code: The code has been divided into smaller and more specific functions, which makes it easier to understand and debug. This also allows code to be reused in other projects.
 
+2: # Programming style improvements: Good programming practices have been applied, such as using more descriptive variable and function names, removing unnecessary code, and using the update function to merge dictionaries instead of a loop for.
 
 
 
