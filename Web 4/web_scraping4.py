@@ -83,7 +83,7 @@ def search_items(search_term):
 	"""Performs the search for products and shows them ordered by price"""
     base_url = "https://www.newegg.ca/p/pl"
     params = {"d": search_term, "N": 4131}
-
+url = f"{base_url}?{'&'.join([f'{k}={v}' for k,v in params.items()])}"
 
 
 
