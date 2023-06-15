@@ -65,6 +65,8 @@ def get_items(url, search_term):
     soup = BeautifulSoup(page, "html.parser")
     div = soup.find(class_="item-cells-wrap border-cells items-grid-view four-cells expulsion-one-cell")
     items = div.find_all(text=re.compile(search_term))
+    items_found = {}
+    for item in items:
 
 
 
