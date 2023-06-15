@@ -108,6 +108,7 @@ if __name__ == '__main__':
 
 2: # Programming style improvements: Good programming practices have been applied, such as using more descriptive variable and function names, removing unnecessary code, and using the update function to merge dictionaries instead of a loop for.
 
+3: # BeautifulSoup Library Update: Updated the BeautifulSoup library to the latest version.
 
 
 
