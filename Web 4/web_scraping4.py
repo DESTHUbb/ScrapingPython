@@ -110,6 +110,7 @@ if __name__ == '__main__':
 
 3: # BeautifulSoup Library Update: Updated the BeautifulSoup library to the latest version.
 
+4: # Use of the params function from the requests library: the params function from the requests library has been used to build the search URL in a clearer and more readable way.
 
 
 
