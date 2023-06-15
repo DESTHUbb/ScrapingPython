@@ -96,7 +96,7 @@ url = f"{base_url}?{'&'.join([f'{k}={v}' for k,v in params.items()])}"
   	print(item[1]['link'])
         print("-------------------------------")
 
-
+if __name__ == '__main__':
 
 
 
