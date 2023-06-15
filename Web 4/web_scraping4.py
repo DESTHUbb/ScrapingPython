@@ -81,6 +81,8 @@ def get_items(url, search_term):
 
 def search_items(search_term):
 	"""Performs the search for products and shows them ordered by price"""
+    base_url = "https://www.newegg.ca/p/pl"
+
 
 
 
