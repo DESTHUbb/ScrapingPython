@@ -114,5 +114,6 @@ if __name__ == '__main__':
 
 5: # Use of the pattern if __name__ == '__main__':: This pattern has been used to separate the code that is executed when importing the module from the code that is executed when calling the script directly. This is a good practice to avoid accidentally running your code twice.
 
+6: # More Robust Exception Handling: Exception handling in code has been improved to prevent unexpected errors and make code more robust.
 
 
