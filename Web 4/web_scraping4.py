@@ -60,6 +60,7 @@ page = requests.get(url).text
     return int(str(page_text).split("/")[-2].split(">")[-1][:-1])
 
 def get_items(url, search_term):
+	"""Gets the products of a page"""
 
 
 
