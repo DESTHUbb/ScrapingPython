@@ -98,6 +98,8 @@ url = f"{base_url}?{'&'.join([f'{k}={v}' for k,v in params.items()])}"
 
 if __name__ == '__main__':
  search_term = input("What product do you want to search for? ")
+    search_items(search_term)
+
 
 
 
