@@ -100,6 +100,11 @@ if __name__ == '__main__':
  search_term = input("What product do you want to search for? ")
     search_items(search_term)
 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////7
+
+# Improvements and updates made:
+
+1:# Modularization of the code: The code has been divided into smaller and more specific functions, which makes it easier to understand and debug. This also allows code to be reused in other projects.
 
 
 
