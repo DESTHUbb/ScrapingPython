@@ -56,6 +56,7 @@ def get_num_pages(url):
        """Get the total number of search pages"""
 page = requests.get(url).text
     soup = BeautifulSoup(page, "html.parser")
+    page_text = soup.find(class_="list-tool-pagination-text").strong
 
 
 
