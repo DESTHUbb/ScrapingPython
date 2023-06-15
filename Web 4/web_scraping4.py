@@ -90,6 +90,8 @@ url = f"{base_url}?{'&'.join([f'{k}={v}' for k,v in params.items()])}"
         url = f"{base_url}?{'&'.join([f'{k}={v}' for k,v in params.items()])}&page={page}"
         items_found.update(get_items(url, search_term))
     sorted_items = sorted(items_found.items(), key=lambda x: x[1]['price'])
+    for item in sorted_items:
+
 
 
 
