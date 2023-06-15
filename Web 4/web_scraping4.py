@@ -73,6 +73,8 @@ def get_items(url, search_term):
         link = parent['href']
  next_parent = item.find_parent(class_="item-container")
         try:
+	    price = next_parent.find(class_="price-current").find("strong").string
+
 
 
 
