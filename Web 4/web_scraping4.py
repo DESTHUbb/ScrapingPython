@@ -61,6 +61,7 @@ page = requests.get(url).text
 
 def get_items(url, search_term):
 	"""Gets the products of a page"""
+    page = requests.get(url).text
 
 
 
