@@ -53,7 +53,7 @@ import re
 
 
 def get_num_pages(url):
-   
+       """Get the total number of search pages"""
 
 
 
