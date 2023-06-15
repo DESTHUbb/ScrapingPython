@@ -69,6 +69,8 @@ def get_items(url, search_term):
     for item in items:
 	    parent = item.parent
         if parent.name != "a":
+		continue
+        link = parent['href']
 
 
 
