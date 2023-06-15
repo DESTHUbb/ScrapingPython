@@ -57,6 +57,7 @@ def get_num_pages(url):
 page = requests.get(url).text
     soup = BeautifulSoup(page, "html.parser")
     page_text = soup.find(class_="list-tool-pagination-text").strong
+    return int(str(page_text).split("/")[-2].split(">")[-1][:-1])
 
 
 
