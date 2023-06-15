@@ -80,6 +80,7 @@ def get_items(url, search_term):
     return items_found
 
 def search_items(search_term):
+	"""Performs the search for products and shows them ordered by price"""
 
 
 
