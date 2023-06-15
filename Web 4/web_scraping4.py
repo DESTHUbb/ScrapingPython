@@ -74,6 +74,8 @@ def get_items(url, search_term):
  next_parent = item.find_parent(class_="item-container")
         try:
 	    price = next_parent.find(class_="price-current").find("strong").string
+		            items_found[item] = {"price": int(price.replace(",", "")), "link": link}
+
 
 
 
