@@ -112,6 +112,7 @@ if __name__ == '__main__':
 
 4: # Use of the params function from the requests library: the params function from the requests library has been used to build the search URL in a clearer and more readable way.
 
+5: # Use of the pattern if __name__ == '__main__':: This pattern has been used to separate the code that is executed when importing the module from the code that is executed when calling the script directly. This is a good practice to avoid accidentally running your code twice.
 
 
 
