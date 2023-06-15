@@ -91,8 +91,10 @@ url = f"{base_url}?{'&'.join([f'{k}={v}' for k,v in params.items()])}"
         items_found.update(get_items(url, search_term))
     sorted_items = sorted(items_found.items(), key=lambda x: x[1]['price'])
     for item in sorted_items:
-	        print(item[0])
+	print(item[0])
         print(f"${item[1]['price']}")
+  	print(item[1]['link'])
+        print("-------------------------------")
 
 
 
