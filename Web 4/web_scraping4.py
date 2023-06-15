@@ -71,6 +71,8 @@ def get_items(url, search_term):
         if parent.name != "a":
 		continue
         link = parent['href']
+ next_parent = item.find_parent(class_="item-container")
+        try:
 
 
 
