@@ -59,6 +59,7 @@ page = requests.get(url).text
     page_text = soup.find(class_="list-tool-pagination-text").strong
     return int(str(page_text).split("/")[-2].split(">")[-1][:-1])
 
+def get_items(url, search_term):
 
 
 
