@@ -79,6 +79,9 @@ def get_items(url, search_term):
             pass
     return items_found
 
+def search_items(search_term):
+
+
 
 
 
