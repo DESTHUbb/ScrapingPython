@@ -63,6 +63,6 @@ def get_items(url, search_term):
 	"""Gets the products of a page"""
     page = requests.get(url).text
     soup = BeautifulSoup(page, "html.parser")
-
+    div = soup.find(class_="item-cells-wrap border-cells items-grid-view four-cells expulsion-one-cell")
 
 
